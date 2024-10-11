@@ -1,1 +1,47 @@
-site_name: My Docs
+site_name: Ansible Lite
+site_description: Ansible Lite is a lightweight, easy-to-use, and powerful automation tool for managing your infrastructure.
+site_author: Aidalinfo
+
+extra:
+  homepage: https://aidalinfo.fr
+
+theme:
+  favicon: assets/aidalinfo.png
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+theme:
+  name: material
+  logo: assets/aidalinfo.png
+  font:
+    code: Roboto Mono
+  features:
+    - content.code.copy
+  palette:
+    # Palette for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: 'pink'  # Couleur principale
+      accent: 'green'  # Couleur d'accentuation
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+
+    # Palette for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: 'pink'  # Couleur principale pour le mode sombre
+      accent: 'green'  # Couleur d'accentuation pour le mode sombre
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
