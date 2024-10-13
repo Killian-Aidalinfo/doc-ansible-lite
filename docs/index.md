@@ -4,9 +4,17 @@
 
 This version is currently in **beta** and under development. If you encounter any issues or bugs, please feel free to open an issue on GitHub: [https://github.com/aidalinfo/ansible-lite/issues](https://github.com/aidalinfo/ansible-lite/issues).
 
+For the moment, the project is just a build for x64 debian bases.
+
+A 32bit version will be released soon, with support for other Linux distributions.
+
 ## Project goals
 
 **Ansible Lite** offers a decentralized solution, ideal for small infrastructures. Unlike other tools that require agent servers or complex setups, **Ansible Lite** relies on a simple system that monitors GitHub repositories with a cron **watcher** to detect changes and execute the appropriate actions.
+
+One of my goals is to create CLI management, a bit like CrowdSec with CSCLI.
+
+I'd also like client-server management. The aim is not to have an ansible fork, but to have a visualization of our clients and their latest actions.
 
 ## How It Works
 

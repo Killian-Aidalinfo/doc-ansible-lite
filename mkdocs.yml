@@ -5,8 +5,10 @@ site_author: Aidalinfo
 extra:
   homepage: https://aidalinfo.fr
 
-theme:
-  favicon: assets/aidalinfo.png
+nav:
+  - 'index.md'
+  - 'Quick Start.md'
+  - 'Package Installation.md'
 
 plugins:
   - search
@@ -25,6 +27,7 @@ theme:
   logo: assets/aidalinfo.png
   font:
     code: Roboto Mono
+  favicon: assets/aidalinfo.png
   features:
     - content.code.copy
   palette:
