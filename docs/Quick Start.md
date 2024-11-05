@@ -29,6 +29,7 @@ repos:
     init: "init.sh"
     branch: "main"
     path: "/tmp/"
+    auth: true
 ```
 
 ### Explanation of the fields:
@@ -46,6 +47,8 @@ repos:
 - branch: The branch to monitor (e.g., main).
 
 - path: The local directory where the repository will be cloned.
+
+- auth: Whether to use authentication (true or false).
 
 
 ### Editing repos.yaml
